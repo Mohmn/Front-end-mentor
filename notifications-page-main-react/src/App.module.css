@@ -1,0 +1,40 @@
+.notificationDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flexEnd {
+    justify-content: space-between;
+}
+
+.smallbox {
+    border: 1px solid hsl(219, 85%, 26%);
+    background: hsl(219, 85%, 26%);
+    margin-left: 0.2em;
+    max-height: 2em;
+
+}
+
+.noMargin {
+    margin: 0;
+    padding: 0.2em;
+}
+
+@media (min-width: 768px) {
+    body {
+        background: hsl(210, 60%, 98%);
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 780px;
+        background: white;
+        padding: 1em;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+}

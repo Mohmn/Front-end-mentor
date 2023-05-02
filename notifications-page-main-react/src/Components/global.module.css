@@ -1,0 +1,14 @@
+.removePadding {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+
+.activeP:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.activeP {
+    color: hsl(224, 21%, 14%);
+}
