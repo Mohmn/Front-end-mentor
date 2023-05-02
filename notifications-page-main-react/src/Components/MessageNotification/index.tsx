@@ -1,7 +1,6 @@
 import ActiveParagraph from "../ActiveParagraph"
 import Profile from "../Profile";
 import style from './index.module.css'
-import globalstyle from '../global.module.css'
 
 type Props = {
     profileUrl: string;
@@ -17,8 +16,7 @@ type Props = {
 export default function Notification(props: Props) {
     const {
         profileUrl, username, body, notificationTime,
-        highlightMessage, generaltext, message,
-        secondProfile } = props;
+        highlightMessage, generaltext, message } = props;
     return (
         <div className={style.notification}>
             <Profile url={profileUrl} />
